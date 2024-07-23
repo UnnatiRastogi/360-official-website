@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Website360">
+
+<listeners>
+ <listener class-name="com.officialweb.utilities."/>
+</listeners>
+    <test name="OfficialWebsite Test">
+		<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name= "com.officialweb.testCases.TC_UITest_001"/>
+		</classes>
+	</test>
+ </suite>

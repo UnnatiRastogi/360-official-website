@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Website360]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.officialweb.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="OfficialWebsite Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.officialweb.testCases.TC_UITest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="UITest"/>
+        </methods>
+      </class> <!-- com.officialweb.testCases.TC_UITest_001 -->
+    </classes>
+  </test> <!-- OfficialWebsite Test(failed) -->
+</suite> <!-- Failed suite [Website360] -->
